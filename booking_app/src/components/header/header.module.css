@@ -1,0 +1,72 @@
+.header {
+	/* height: 60px; */
+	background-color: #003580;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.headerContainer {
+	width: 100%;
+	max-width: 1024px;
+}
+.headerList {
+	display: flex;
+	padding-left: 0px;
+	gap: 1rem;
+}
+
+.headerListItem {
+	list-style-type: none;
+	padding: 0.5rem 1rem;
+	color: rgb(255, 255, 255, 0.6);
+
+	border: 0.1px solid transparent;
+	border-radius: 25px;
+	font-size: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.headerListItem:hover {
+	color: white;
+	cursor: pointer;
+
+	transition: all 0.3s;
+}
+
+.buttonActive {
+	border: 1px solid white;
+}
+.itemIcon {
+	margin-right: 0.5rem;
+}
+
+.headerTitle,
+.headerDesc {
+	color: white;
+}
+
+.highlightText {
+	font-size: 1.1rem;
+}
+.headerButton {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #0167b7;
+	padding: 0.3rem 0.5rem;
+	border: none;
+	cursor: pointer;
+	color: white;
+	margin-bottom: 3rem;
+}
+
+.headerButton:hover {
+	cursor: pointer;
+}
+
+.headerSearch {
+	color: white;
+}
